@@ -1,0 +1,27 @@
+body { margin: 0; font-family: Inter, system-ui, Arial, sans-serif; background: #f5f7fb; color: #162033; }
+main { max-width: 1180px; margin: 0 auto; padding: 40px 20px; }
+header { display: flex; justify-content: space-between; gap: 24px; align-items: center; margin-bottom: 28px; }
+h1 { margin: 0; font-size: 34px; }
+.eyebrow { margin: 0 0 8px; color: #5b6b88; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; }
+button { border: 0; border-radius: 12px; padding: 14px 20px; background: #162033; color: white; font-weight: 700; cursor: pointer; }
+button:disabled { opacity: .6; cursor: wait; }
+.card { background: white; border: 1px solid #e4e8f0; border-radius: 20px; padding: 24px; box-shadow: 0 10px 30px rgba(22,32,51,.06); }
+.hero { margin-bottom: 24px; }
+.hero span { display: block; color: #5b6b88; margin-bottom: 8px; }
+.hero strong { font-size: 44px; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+h2 { margin: 0 0 16px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; border-bottom: 1px solid #edf0f5; padding: 12px 8px; vertical-align: top; }
+th:last-child, td:last-child { text-align: right; white-space: nowrap; }
+@media (max-width: 800px) { header, .grid { grid-template-columns: 1fr; display: block; } button { margin-top: 16px; } .card { margin-bottom: 20px; } }
+.status {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.error {
+  color: #b42318;
+}
