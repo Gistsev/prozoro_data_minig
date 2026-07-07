@@ -257,3 +257,7 @@ LIMIT 5;
 - OpenTelemetry + Prometheus + Grafana.
 - Integration tests через Testcontainers.
 - Retry policy та dead-letter queue для помилкових імпортів.
+
+## Результат
+
+<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/7fce6318-1a9f-4407-a396-12e8f89adb8c" />
